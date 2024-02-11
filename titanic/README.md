@@ -26,16 +26,16 @@ The best-performing model is selected based on evaluation metrics, and predictio
 # Results
 
 ### Random Forest:
-Train accuracy: 83.07% 
-Validation accuracy: 80.06%
+- Train accuracy: 83.07% 
+- Validation accuracy: 80.06%
 
 ### Extra Trees:
-Train accuracy: 83.99% 
-Validation accuracy: 73.33%
+- Train accuracy: 83.99% 
+- Validation accuracy: 73.33%
 
 ### Decision Tree:
-Train accuracy: 83.38% 
-Validation accuracy: 78.78%
+- Train accuracy: 83.38% 
+- Validation accuracy: 78.78%
 
 Conclusion
 This was the first time I delve into feature engineering which is a crucial part in machine learning and data science. Initially, I had a really bad accuacy but I realized that feature engineering was key here to acheive an accuracy of above
