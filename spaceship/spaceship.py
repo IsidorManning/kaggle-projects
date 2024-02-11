@@ -511,25 +511,3 @@ voting_classifier = VotingClassifier(
 )
 voting_classifier.fit(X_train, y_train)
 custom_model_maker(voting_classifier, "Voting clf (Catboost, XGB & RF)")
-
-# Finilization
-
-"""
-Best parameters rf: {'max_depth': 10, 'min_samples_split': 80, 'n_estimators': 100}
-Random Forest score on train: 0.731793687451886
-Random Forest score on val: 0.7290579297245964
-
-Cat boost score on train: 0.7282525019245574
-Cat boost score on val: 0.7112079772079772
-
-Best parameters rf: {'learning_rate': 0.01, 'max_depth': 6, 'n_estimators': 120}
-XGB score on train: 0.7305619707467282
-XGB score on val: 0.7038157644824311
-
-Best parameters knn : {'leaf_size': 60, 'n_neighbors': 80}
-KNN score on train: 0.7168591224018476
-KNN score on val: 0.6755042735042736
-
-Voting clf (Catboost, XGB & RF) score on train: 0.7305619707467282
-Voting clf (Catboost, XGB & RF) score on val: 0.7142792022792023
-"""
