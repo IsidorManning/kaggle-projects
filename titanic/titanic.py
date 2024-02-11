@@ -31,8 +31,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import cross_val_score, GridSearchCV
 
 # Firstly we import and load all the necessary data from kaggle
-train_url = r"C:\Users\isido\Desktop\Python\AIML\datasets\titanic\train.csv"
-test_url = r"C:\Users\isido\Desktop\Python\AIML\datasets\titanic\test.csv"
+train_url =  r"./titanic-data/train.csv"
+test_url =  r"./titanic-data/train.csv"
 train_df = pd.read_csv(train_url)  # Shape of (891, 12)
 test_df = pd.read_csv(test_url)  # Shape of (418, 11)
 
