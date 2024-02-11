@@ -35,10 +35,10 @@ warnings.filterwarnings("ignore")
 
 # Load data into train & test dataframes:
 
-train_url = r"C:\Users\isido\Desktop\Python\AIML\datasets\spaceshiptitanic\train.csv"
+train_url = r"./spaceship/train.csv"
 train = pd.read_csv(train_url)
 
-test_url = r"C:\Users\isido\Desktop\Python\AIML\datasets\spaceshiptitanic\test.csv"
+test_url = r"./spaceship/test.csv"
 test = pd.read_csv(test_url)
 
 
