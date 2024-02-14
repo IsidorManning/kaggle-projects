@@ -1,7 +1,7 @@
 """ INITIAL NOTES
 
 This is my full take on building a machine learning model which predicts the survival
-of passengers of the titanic-data ship.
+of passengers of the titanic data set.
 
 The goal: Certain groups of people had higher chances of surviving the titanic-data ship crash.
 Our goal is to predict wether people will either survive or not survive based on certain
