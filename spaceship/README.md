@@ -28,28 +28,28 @@ Trained multiple machine learning models including Random Forest, CatBoost, XGBo
 # Best Model Performance
 ### Random Forest:
 
-Train accuracy: 73.18%
-Validation accuracy: 72.91%
+- Train accuracy: 73.18%
+- Validation accuracy: 72.91%
 
 ### CatBoost:
 
-Train accuracy: 72.83%
-Validation accuracy: 71.12%
+- Train accuracy: 72.83%
+- Validation accuracy: 71.12%
 
 ### XGBoost:
 
-Train accuracy: 73.06%
-Validation accuracy: 70.38%
+- Train accuracy: 73.06%
+- Validation accuracy: 70.38%
 
 ### KNN:
 
-Train accuracy: 71.69%
-Validation accuracy: 67.55%
+- Train accuracy: 71.69%
+- Validation accuracy: 67.55%
 
 ### Voting Classifier (Ensemble of CatBoost, XGBoost, and Random Forest):
 
-Train accuracy: 73.06%
-Validation accuracy: 71.43%
+- Train accuracy: 73.06%
+- Validation accuracy: 71.43%
 
 
 # Conclusion & Future Improvements
